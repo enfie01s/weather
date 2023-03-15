@@ -1,0 +1,5 @@
+@import './base.css';
+
+body, html, #app, main {
+  min-height: 100%;
+}

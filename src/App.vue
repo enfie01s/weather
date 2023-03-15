@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <WeatherApp/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WeatherApp from './components/Weather.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WeatherApp
   }
 }
 </script>
@@ -21,6 +20,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+body, html, #app, main {
+  min-height: 100%;
 }
 </style>
